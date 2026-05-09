@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+venv/
+.venv/
+
+# Node
+node_modules/
+*.js.map
+
+# Project specific - large generated files
+test_output_v10/slides/
+test_output_v10/cropped_slides/
+test_output_final/
+audio/lecture_audio.wav
+audio/transcript.json
+audio/transcript.txt
+
+# Keep handout outputs
+!test_output_v10/handout_images/
+
+# Logs and temp
+*.log
+*.txt
+*.json
+!pyproject.toml
+!audio/transcript.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WorkBuddy
+.workbuddy/
